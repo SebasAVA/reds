@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/hero-bg.jpg") top right no-repeat;
+  background: url("/assets/img/hero-bg1.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1022,6 +1022,16 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+.services button[type="submit"] {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
